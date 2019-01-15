@@ -42,7 +42,7 @@
         "#!/usr/bin/env clj\n" +
           ";; " + title + "\n" +
           "(defn func [arg-list]" + "\n" +
-          "true)" + "\n" +
+          "  )" + "\n" +
           ";;" + description
             .replace(/__/g, "func")
             .split(/\s\s/)
